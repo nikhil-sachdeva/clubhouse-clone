@@ -1,4 +1,4 @@
-const endPoint = 'https://prod-in.100ms.live/hmsapi/deepankar.app.100ms.live/';
+const endPoint = 'https://prod-in.100ms.live/hmsapi/testch.app.100ms.live/';
 
 export default async function getToken(room_id) {
   const response = await fetch(`${endPoint}api/token`, {
